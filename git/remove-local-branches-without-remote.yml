@@ -1,0 +1,13 @@
+---
+name: Remove local branches without remote
+command: git remote prune origin
+tags:
+  - git
+  - prune
+  - remove
+  - remote
+  - delete
+description: Remove local branches which are not present on remote
+source_url: "https://github.com/roydigerhund/warp-dev-workflows/blob/main/remove-local-branches-without-remote.yml"
+author: Matthiar Martin
+author_url: "https://github.com/roydigerhund"
