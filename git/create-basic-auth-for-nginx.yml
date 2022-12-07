@@ -1,0 +1,12 @@
+---
+name: Create basic auth for nginx
+command: htpasswd -c auth example
+tags:
+  - basic
+  - auth
+  - nging
+  - kubernetes
+description: Create basic auth for nginx
+source_url: "https://github.com/roydigerhund/warp-dev-workflows/blob/main/create-basic-auth-for-nginx.yml"
+author: Matthiar Martin
+author_url: "https://github.com/roydigerhund"
